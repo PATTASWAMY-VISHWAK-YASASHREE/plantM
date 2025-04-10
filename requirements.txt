@@ -1,0 +1,7 @@
+numpy
+tensorflow
+h5py
+flask
+scikit-learn
+pandas
+requests
