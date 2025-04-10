@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from model.preprocessing import preprocess_input
 
 # Load model at module level so it persists between invocations
-MODEL_PATH = r"C:\Users\pvish\OneDrive\Desktop\hcli\model.h5"  # Explicit path to model.h5
+MODEL_PATH = r"C:\plantM\model\model.h5"  # Updated path to model.h5
 model = tf.keras.models.load_model(MODEL_PATH)
 
 class Handler(BaseHTTPRequestHandler):
